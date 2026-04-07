@@ -3,62 +3,25 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 教育背景
+* **上海交通大学 (SJTU)**, 2024 - 2028 (Expected)
+  * 本科在读, 计算机科学方向
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## 技能与工作流
+* **系统:** 熟练掌握 Linux 系统管理 (Fedora/Arch)
+* **工具:** Emacs, Vim, Zsh, Git
+* **算法:** 深入理解 $O(n), O(n \log n)$ 等复杂度分析，具备扎实的数学建模能力。
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## 竞赛经历
+* **2025 MCM/ICM Meritorious Winner**
+  * 负责模型算法实现与 Python 仿真。
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## 开源贡献
+* [**obsidian_notes**](https://github.com/tavis-jiang/obsidian_notes): 个人知识库系统
+* [**digitalgarden**](https://github.com/tavis-jiang/digitalgarden): 静态站点数字花园
+* [**my-mac-scripts**](https://github.com/tavis-jiang/my-mac-scripts):自用脚本
+* 更多请访问[**tavis-jiang的库**](https://github.com/tavis-jiang)
