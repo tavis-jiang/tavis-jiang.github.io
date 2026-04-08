@@ -1,47 +1,51 @@
 ---
-layout: about
-title: "About Me"
+layout: archive
 permalink: /
-author_profile: true
+author_profile: false # 必须为 false，因为我们要自己手写顶部布局
 ---
 
-# 蒋勃琛 (Tavis Jiang)
+<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 20px;">
+  <div style="flex: 0 0 260px;">
+    <img src="{{ base_path }}/images/profile.jpg" style="width: 100%; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  </div>
 
-我是上海交通大学 (SJTU) 2024 级本科生。我推崇 **Keyboard-centric (无小鼠化)** 开发流程，是一名坚定的 **Fedora Linux** 用户与 **Emacs/Vim** 拥趸。目前我正专注于算法深度进阶与系统底层探索，目标是加入顶尖 AI 实验室从事高效架构研究。
+  <div style="flex: 1;">
+    <h1 style="margin-top: 0; font-size: 2.2em; color: #333;">蒋勃琛 (Tavis Jiang)</h1>
+    <p style="font-size: 1.1em; line-height: 1.6;">
+      <strong>Undergraduate Student / 24级本科生</strong><br>
+      Computer Science & Technology (计算机科学与技术)<br>
+      <a href="https://www.sjtu.edu.cn" target="_blank">Shanghai Jiao Tong University (上海交通大学)</a>
+    </p>
+    <p style="font-size: 0.95em;">
+      <strong>E-mail:</strong> 24jiangbc[the simbol]sjtu.edu.cn<br>
+      <strong>Office:</strong> Minhang Campus, No. 800 Dongchuan Road, Shanghai.
+    </p>
+    
+    <div style="display: flex; gap: 15px; margin-top: 20px;">
+      <a href="https://github.com/tavis-jiang" target="_blank"><img src="https://img.icons8.com/material-sharp/24/000000/github.png"/></a>
+      <a href="mailto:24jiangbc@sjtu.edu.cn"><img src="https://img.icons8.com/material-sharp/24/000000/new-post.png"/></a>
+      <a href="https://tavis-jiang.github.io"><img src="https://img.icons8.com/material-sharp/24/000000/home.png"/></a>
+    </div>
+  </div>
+</div>
 
----
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
 
-## 🛠 技术栈 (Technical Skills)
-* **操作系统:** Fedora Linux (Daily Driver), Arch Linux.
-* **高效工具:** Emacs (Org-mode), Vim/Neovim, Shell Scripting.
-* **编程语言:** C++, Python (熟练使用); Go, Java (基础了解).
-* **开发环境:** 完全基于终端与 Git 的高效开发流 (Dotfiles 深度定制).
+## Bio / 简介
 
----
+I am a freshman undergraduate student at the **School of Electronic Information and Electrical Engineering (SEIEE)**, Shanghai Jiao Tong University (SJTU). I am a **Fedora Linux** enthusiast and a dedicated **Vim/Emacs** user, focusing on the intersection of efficient engineering workflows and core algorithms.
 
-## 🚀 项目与实践 (Projects & Practice)
+我是上海交通大学电子信息与电气工程学院 (电院) 2024 级本科生。我是一名 **Fedora Linux** 爱好者，推崇 **Vim/Emacs** 键盘驱动的开发模式。目前我正在学习 **MIT 6.006 (Algorithms)** 课程，并致力于在算法实现与系统底层探索中建立坚实的工程品味。
 
-### 算法与数据结构深度进阶 (Ongoing)
-* **内容:** 正在同步攻克 **MIT 6.006** 与 **Princeton Algorithms I**。
-* **实践:** 使用 Python/C++ 重构了所有核心算法，重点研究图论与动态规划的复杂度优化。
 
-### Linux 系统与安全实践
-* **Bandit:** 已完结 OverTheWire 的 Bandit 挑战，熟悉 Linux 命令、文件系统权限与网络基础。
-* **Digital Garden:** [GitHub 链接](https://github.com/tavis-jiang/digitalgarden) - 建立了个人数字花园，利用 Obsidian 实现了知识的结构化内化。
+### 🚀 Projects & Practice / 项目与实践
+* **Algorithm Intensive (Ongoing):** Implementing core algorithms from MIT 6.006 using Python/C++. (基于 Python/C++ 的算法深度实践)
+* **Linux Mastery:** Completed the Bandit challenge; deep customization of personal Dotfiles. (完结 Bandit 挑战；深度定制个人开发环境)
+* **Knowledge Management:** [Obsidian Notes](https://github.com/tavis-jiang/obsidian_notes) and [Digital Garden](https://github.com/tavis-jiang/digitalgarden). (结构化知识管理与数字花园)
 
----
+### 🏆 Awards / 荣誉
+* **2025 MCM/ICM (美赛)** - **Meritorious Winner** (一等奖)
 
-## 🏆 荣誉奖项 (Awards)
-* **2025年美国大学生数学建模竞赛 (MCM/ICM)** - **Meritorious Winner** (一等奖)
-
----
-
-## 📚 核心课程 (Core Courses)
-* **在读:** MIT 6.006 (Algorithms), Princeton Algorithms.
-* **已修:** C++ 程序设计实践, 线性代数, 离散数学.
-
----
-
-## 💬 联系方式 (Contact)
-* **Email:** [24jiangbc@sjtu.edu.cn](mailto:24jiangbc@sjtu.edu.cn)
-* **GitHub:** [tavis-jiang](https://github.com/tavis-jiang)
+### 📚 Core Courses / 核心课程
+* **Ongoing:** MIT 6.006 (Algorithms), Princeton Algorithms.
+* **Completed:** C++ Programming Practice (C++ 程序设计实践), Linear Algebra (线性代数), Discrete Mathematics (离散数学).
